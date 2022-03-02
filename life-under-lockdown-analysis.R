@@ -1,4 +1,5 @@
-library(dplyr,warn.conflicts = F )
+library(dplyr)
 library(readr)
 
-library(tibble)
+lul_d <- read_csv("../data/life-under-lockdown.csv")
+
